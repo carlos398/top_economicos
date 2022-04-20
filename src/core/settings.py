@@ -116,3 +116,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'tops_app.UserProfile'
+
+LOGIN_REDIRECT_URL = 'tops_app:index'
