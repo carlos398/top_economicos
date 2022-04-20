@@ -19,7 +19,9 @@ de otra forma podrian colaborar con codigo de esta manera
     -Tambien puedes hacerlo con py -m venv venv
     -debes tener instalado virtualenv en tu equipo y python
 -realiza las migraciones y comienza a gregar lo que gustes
+    -para realizar migraciones es facil solo hagan esto:
+        -py manage.py makemigrations
+        -py manage.py migrate
+    -este paso es muy importante porque maneja bastantes cambios
 -recuerda trabajar en una rama diferente y realizar tus request
 -estare actualizando este contenido chao chao 
-
-##UWU CR
