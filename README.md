@@ -18,6 +18,9 @@ de otra forma podrian colaborar con codigo de esta manera
     -Puedes hacerlo con virtualenv env
     -Tambien puedes hacerlo con py -m venv venv
     -debes tener instalado virtualenv en tu equipo y python
+-Crear el archivo .env con las variables de entorno necesarias
+    -SECRET_KEY
+    -
 -realiza las migraciones y comienza a gregar lo que gustes
     -para realizar migraciones es facil solo hagan esto:
         -py manage.py makemigrations
